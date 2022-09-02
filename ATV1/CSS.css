@@ -1,0 +1,38 @@
+body {background-color: rgb(121, 179, 230) ;}
+
+.position{
+    position: relative;
+    text-align: left;
+    }
+
+
+
+@media screen and (max-width: 768px){
+    section ,  aside{
+        width: 100%;
+        padding: 0%;
+        background-color: aqua;
+        margin: auto;
+        
+    }
+
+}
+@media screen and (max-width: 600px){
+    div li{
+    text-align: center;
+    background-color: aquamarine;
+    width: 100%;
+    margin: auto;
+    }
+
+}
+@media screen and (max-width:300px){
+    table{
+        background-color: darkslategray;
+    }
+    img{
+        width: 100%;
+    }
+}
+    
+     
